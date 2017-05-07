@@ -1,0 +1,364 @@
+body{
+background:#fff;
+}
+
+nav {
+  /*margin: 0 auto;*/
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 2px 6px #000;
+  /*position: fixed;*/
+  /*padding-left: 31%;
+  padding-right: 30.8%;*/
+  margin-top: -1%;
+}
+
+.logo-box {
+  float: left;;
+  margin-left: 25px;
+}
+
+.logo {
+  margin: 0;
+  height: 70px;
+  text-align: center;
+}
+
+
+
+ul {
+  margin: -20px;
+  /*margin-right: 25px;*/
+  padding-left: 0;
+  list-style: none;
+  /*float: right;*/
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: #000;
+}
+
+a:hover {
+    color: #B70A3D;
+}
+
+a:visited {
+  color: white;
+}
+
+li.nav a {
+  color: #000;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+li {
+  display: inline-block;
+  margin-left: 5px;
+  transition: .5s linear;
+}
+
+li.nav a:after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  background: #868686 ;
+  transition: all 0.5s linear;
+}
+li a:hover:after {
+  width: 100%;
+}
+
+
+.links {
+    margin-left: 60%;
+}
+
+.Dexter {
+  background-color: white;
+  padding-top: 1%;
+  padding: 6%;
+}
+
+.tutoring {
+  background-color: white;
+}
+
+img.tutor {
+    margin-left: 74%;
+    border-radius: 58%;
+    margin-bottom: -10%;
+}
+
+
+.title {
+  background-color: white;
+  padding-top: 1%;
+}
+
+
+h1.teachers {
+    margin-left: 42%;
+}
+
+p.about-teach {
+  margin: -1%;
+  padding: 16%;
+}
+
+img.teach {
+    width: 15%;
+    margin-bottom: -19%;
+}
+
+
+.hero {
+    background-color: cadetblue;
+}
+
+.about {
+  background-color: #fff;
+}
+
+img.about-student {
+    width: 36%;
+    padding-left: 4%;
+    padding-top: 3%;
+}
+
+p.about-blurb {
+    margin-left: 50%;
+    margin-top: -18%;
+    padding-bottom: 10%;
+    padding-right: 4%;
+}
+
+
+a.about-btn {
+    color: #1e88e5;
+    float: right;
+    padding: 5px;
+    margin-top: -8%;
+    border: solid;
+    margin-right: 24%;
+    border-radius: 3px;
+}
+
+.sign-up {
+    width: 696px;
+    margin: auto;
+    padding: 1px;
+    background-color: cadetblue;
+    border-radius: 3px;
+}
+
+
+p.newsletter {
+    margin-left: 7px;
+    color: white;
+}
+
+input[type="text"] {
+    border: solid;
+    color: #1e88e5;
+}
+
+input::placeholder {
+  color: lightgray;
+}
+
+input[type="submit"] {
+    border: solid;
+    background-color: white;
+    color: #1e88e5;
+    border-radius: 3px;
+}
+
+
+p.teach-blurb {
+    padding-left: 9%;
+    padding-top: 13%;
+    padding-right: 40%;
+}
+
+img.teach-apple {
+    float: right;
+    width: 31%;
+}
+
+a.teach-btn {
+    color: #1e88e5;
+    float: left;
+    padding: 5px;
+    margin-top: 2%;
+    border: solid;
+    margin-left: 24%;
+    border-radius: 3px;
+}
+
+ul.sub {
+    display: inline-block;
+}
+
+img.subject {
+    width: 150px;
+    margin: 15px;
+}
+
+.subjects {
+    padding-top: 13%;
+}
+
+h2 {
+    margin-left: 10%;
+}
+
+#subject {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: auto;
+    padding-top: 4%;
+}
+
+footer {
+  background-color: #f4f4f4;
+  margin-top: 24%;
+  padding: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#carousel {
+position: relative;
+width:60%;
+margin:0 auto;
+}
+
+#slides {
+overflow: hidden;
+position: relative;
+width: 100%;
+height: 295px;
+}
+
+#slides ul {
+list-style: none;
+width:100%;
+height:250px;
+margin: 0;
+padding: 0;
+position: relative;
+}
+
+ #slides li {
+width:100%;
+height:250px;
+float:left;
+text-align: center;
+position: relative;
+font-family:lato, sans-serif;
+}
+/* Styling for prev and next buttons */
+.btn-bar{
+    max-width: 346px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 40px;
+    width: 100%;
+}
+
+ #buttons {
+padding:0 0 5px 0;
+float:right;
+}
+
+#buttons a {
+text-align:center;
+display:none;
+}
+
+a#prev:hover, a#next:hover {
+color:#FFF;
+text-shadow:.5px 0px #b14943;
+}
+
+.quote-phrase, .quote-author {
+font-family:sans-serif;
+font-weight:300;
+display: table-cell;
+vertical-align: middle;
+padding: 0px 20px;
+padding-left: 0px;
+font-family:'Lato', Calibri, Arial, sans-serif;
+}
+
+.quote-phrase {
+  width: 200px;
+height: 200px;
+font-size:24px;
+color:#FFF;
+font-style:italic;
+text-shadow:.5px 0px #b14943;
+}
+
+.quote-marks {
+font-size:30px;
+padding:0 3px 3px;
+position:inherit;
+}
+
+.quote-author {
+font-style:normal;
+font-size:20px;
+color:#1d9cf1;
+font-weight:400;
+height: 50px;
+}
+
+.quoteContainer, .authorContainer {
+display: table;
+width: 100%;
+}
